@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+}
+
+.nav-bar{
+    display: flex;
+    background-color: rgb(4, 128, 177);
+    height: 75px;
+    color: white;
+}
+
+.div-img-logo{
+    display: block;
+    width: 40%;
+}
+.img-logo{
+    width: 25% ;
+    height: 100%;
+}
+
+.div-expandir{
+    width: 40%;
+    background-color: rgb(4, 128, 177);
+}
+
+.div-img-user{
+   display: flex;
+    width: 20%;
+}
+.img-user{
+    height: 45%;
+    margin-top: 7%;
+    margin-left: 0%;
+}
+.img-user:hover{
+    height: 47%;
+    margin-top: 7%;
+    margin-left: 0%;
+}
+
+.user-logado{
+    color: aliceblue;
+    font-size: 17px;
+    text-decoration: none;
+    padding-top: 10%;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.user-logado:hover{
+    color: aliceblue;
+    font-size: 17px;
+    text-decoration: underline;
+    padding-top: 10%;
+    margin-left: 10px;
+}
+
+.menu-lateral{
+    display: block;
+    background-color: rgb(64, 64, 65);
+    width: 10%;
+    height: 100%;
+    font-size: 12px;   
+    color: rgb(177, 199, 199);
+    font-family: 'Roboto', sans-serif;
+    
+}
+#img-menu-lateral{
+    height: 21px;
+    padding-right: 5px; 
+}
+
+
+.div-meio{
+    display: flex;
+    height: 900px;
+}
+
+.aside-meio{
+    width: 75%;
+    text-align: center;
+    color: rgb(11, 62, 92);
+    height: 100%;
+   
+}
+
+.footer-rodape{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+li{
+    padding: 13px;
+}
+
+
